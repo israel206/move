@@ -38,7 +38,7 @@ This project was developed during Next Level Week #4 (reactjs trail) with the fo
 
   ```bash
     # clone repository
-    git clone https://github.com/israel206/mover.it.git project-name
+    git clone https://github.com/israel206/move.git project-name
 
     # enter web folder
     cd project-name
@@ -56,7 +56,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Feito com ♥ acompanhado as aulas da Rocketseat da 4th Next Level Week
+Feito com ♥ acompanhando as aulas da Rocketseat da 4th Next Level Week
 
 [ts]: https://www.typescriptlang.org
 [vscode]: https://code.visualstudio.com/
