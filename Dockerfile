@@ -6,5 +6,7 @@ WORKDIR /home/node/app
 
 COPY . .
 
-ENTRYPOINT [ ".docker/entrypoint.sh" ]
+RUN npm install
+
+ENTRYPOINT [ "npm", "start" ]
 
