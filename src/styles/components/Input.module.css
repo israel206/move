@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container input {
+  height: 5.3rem;
+  border: 2px solid transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 2rem;
+  width: 22.6rem;
+  color: var(--white);
+  outline: transparent;
+  background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+  transition: border 200ms;
+  font-size: 1.3rem;
+}
+
+.container input::placeholder {
+  color: var(--text-highlight);
+}
+
+.container input:hover,
+.container input:active,
+.container input:focus {
+  border-color: #414AA3;
+}
+
+.container input:focus::placeholder {
+  color: transparent;
+}
+
+.container button {
+  height: 5.3rem;
+  width: 5.3rem;
+  border: none;
+  background: var(--blue-dark);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 0px;
+  transition: background 200ms;
+}
+
+.container input:valid ~ button {
+  background: var(--green);
+}

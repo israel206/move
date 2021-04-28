@@ -1,0 +1,53 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--blue);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.logo img {
+  height: 80%;
+}
+
+.loginContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.loginContent > img {
+  margin-bottom: 6.4rem;
+}
+
+.loginContent h4 {
+  color: var(--white);
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.loginContent .githubDescription {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.6rem;
+}
+
+.loginContent .githubDescription img {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.loginContent .githubDescription p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  width: 19rem;
+  color: var(--text-highlight);
+  margin-left: 1.6rem;
+}

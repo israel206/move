@@ -1,0 +1,83 @@
+.cardContainer {
+  height: 6.4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.cardContainer > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.8rem;
+  height: 100%;
+  background: var(--white);
+  margin-right: 0.2rem;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--text);
+}
+
+.cardContainer > div {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background: var(--white);
+  padding: 1rem 0 1rem 1rem;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.3fr;
+  gap: 1rem;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userInfo > div {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo div > img {
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 50%;
+}
+
+.userInfo div div {
+  margin-left: 1.5rem;
+}
+
+.userInfo div div strong {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--title);
+}
+
+.userInfo div div p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.userInfo div div p img {
+  margin-right: 0.5rem;
+}
+
+.userNumbers span {
+  font-size: 1rem;
+  color: var(--title);
+  font-weight: 500;
+}
+
+.userNumbers span:first-of-type {
+  color: var(--blue);
+  margin-right: 0.4rem;
+}
